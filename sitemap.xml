@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://vacant-ronin.github.io/blogs/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/categories/category-1/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/tags/random/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/blogs/blog-1/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/categories/category-11/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/tags/random1/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/tags/random2/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/blogs/blog-2/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/archive/</loc>
+  </url><url>
+    <loc>https://vacant-ronin.github.io/alltaxa/</loc>
+  </url>
+</urlset>
