@@ -88,89 +88,84 @@
 
       <main>
         
-<div class="d-flex flex-row flex-wrap justify-content-around">
-  <div class="mt-4 home-flex-item" style="width: calc(35% - 20px); min-width: 250px;">
-    <img class="w-100 rounded mb-2" src="/images/main.jpeg" />
-<div class="d-flex justify-content-center mt-2">
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      2
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2021-06-26</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
   
-  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
-    <a href="#">
-      <i class="social-icon fab fa-linkedin-in"></i>
-    </a>
-  </div>
-  
-  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
-    <a href="#">
-      <i class="social-icon fab fa-github"></i>
-    </a>
-  </div>
-  
-  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
-    <a href="#">
-      <i class="social-icon fab fa-twitter"></i>
-    </a>
-  </div>
-  
-  <div class="ml-1 mr-1" style="width: 40px; height: 40px;">
-    <a href="#">
-      <i class="social-icon fab fa-stack-overflow"></i>
-    </a>
-  </div>
-  
-</div>
-
-  </div>
-
-  <div class="home-flex-item mt-4" style="width: calc(65% - 20px);">
-    <div class="position-relative border rounded p-2" style="margin-bottom: 40px;">
-      <h4
-  class="pl-2 pr-2 bg-dark rounded border"
-  style="position: absolute; top: -1rem; right: 0.5em;"
->
-  <b>About</b>
-</h4>
-<h1>I am Firstname Lastname.</h1>
-<p><strong>This website</strong> is my blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+&lt; 1 min
+      
     </div>
-    <div class="home-flex-item position-relative p-2 border rounded text-center">
-      <h4
-  class="pl-2 pr-2 bg-dark rounded border"
-  style="position: absolute; top: -0.7em; left: 0.5em;"
->
-  <b>Recent</b>
-</h4>
-
-<div class="pt-2">
-  
-  <a class="ml-1 list-entry-link text-uppercase" href="https://vacant-ronin.github.io/posts/2/">
-    2
-  </a>
-  <p class="ml-2 mb-1"></p>
-  
-  <a class="ml-1 list-entry-link text-uppercase" href="https://vacant-ronin.github.io/posts/myfirst/">
-    Myfirst
-  </a>
-  <p class="ml-2 mb-1"></p>
-  
-  <a class="ml-1 list-entry-link text-uppercase" href="https://vacant-ronin.github.io/blogs/blog-1/">
-    Title of the blog 1
-  </a>
-  <p class="ml-2 mb-1">A brief summary for the blog 1</p>
-  
-  <a class="ml-1 list-entry-link text-uppercase" href="https://vacant-ronin.github.io/blogs/blog-2/">
-    Title of the blog 2
-  </a>
-  <p class="ml-2 mb-1">A brief summary for the blog 2</p>
-  
-  <p class="text-right m-0">
-    <a href="/archive/">See All</a>
-  </p>
-</div>
-
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/posts"
+        title="Section"
+      >Posts</a>
     </div>
   </div>
+  
+
+  
+  
+  
+  
+  
+  
 </div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/posts/myfirst/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Myfirst"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
 
       </main>
     </div>
